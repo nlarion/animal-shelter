@@ -1,0 +1,45 @@
+body {
+  font-family: monospace;
+}
+
+img {
+  width: 60%;
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+  background-color: #ff00a7;
+  color: yellow;
+  border: 25px dotted black;
+}
+
+.column1, .column2, .column3{
+  float: left;
+  width: 25%;
+  border: 10px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.column1 h2, .column2 h2, .column3 h2{
+  text-align: left;
+  font-weight: bold;
+  background-color: lightblue;
+
+}
+
+.column1 {
+  background-color: lightgreen;
+
+}
+
+.column2 {
+  background-color: #ffaea8;
+
+}
+
+.column3 {
+  background-color: #9f9eb5;
+
+}
