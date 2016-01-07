@@ -55,3 +55,19 @@ h1 {
       float:none;
   }
 }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none;
+    text-shadow: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+
+
+}
