@@ -43,3 +43,15 @@ h1 {
   background-color: #9f9eb5;
 
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+  .column3 {
+    float:none;
+  }
+    .column2 {
+      float:none;
+  }
+}
